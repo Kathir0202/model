@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: o;
+}
+html{height: 100%;}
+
+body{
+    background-image: url(images/1533673-3840x2160-desktop-4k-ana-de-armas-wallpaper-image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: serif;
+    font-size: 50px;
+    padding: 20px;    
+    display: flex;
+
+}
+#head{
+    font-size: medium;
+    font-family: sans-serif;
+    
+}
+#logo{
+    display: flex;
+    
+}
+.nav-list{display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+text-decoration: none;
+position: absolute;
+left: 78%;
+margin-top: auto; 
+list-style: none;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 60px;
+ 
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  position: absolute;
+  bottom: 20%;
+  padding: 20px;
+  color:brown;
+  letter-spacing: 10px;
+}
+.footer{
+    margin-top: auto;
+    color: black;
+    font-size: small;
+    font-family: serif;
+    background-color: antiquewhite;
+    opacity: 50%;
+    /* padding: 10px; */
+    /* position:absolute; */
+    /* bottom: 0;    */
+    color: black;
+    
+    
+}
+
+.foot{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
